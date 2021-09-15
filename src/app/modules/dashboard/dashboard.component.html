@@ -1,0 +1,38 @@
+<div>
+   <app-area></app-area>
+</div>
+
+<br>
+
+<mat-divider></mat-divider>
+
+<br>
+
+<div fxLayout="row" fxLayoutAlign="space-between centre" fxLayoutGap="20px" class="stats-card">
+    <mat-card fxFlex="25">
+        <app-card label="Users" total="18k" percentage="50"></app-card>
+    </mat-card>
+
+    <mat-card>
+        <app-card label="New" total="30k" percentage="80"></app-card>
+    </mat-card>
+
+    <mat-card>
+        <app-card  label=" Rate" total="11k" percentage="30"></app-card>
+    </mat-card>
+
+    <mat-card>
+        <app-card  label="Star" total="10k" percentage="90"></app-card>
+    </mat-card>
+</div>
+
+<br>
+
+<mat-divider></mat-divider>
+
+<br>
+
+<div fxLayout="row" fxLayoutAlign="space-between centre" fxLayoutGap="20px"> 
+    <div fxFlex="60"><app-table></app-table></div>
+    <div fxFlex="40"><app-pie></app-pie></div>
+</div>
